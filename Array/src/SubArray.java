@@ -8,12 +8,12 @@ public class SubArray {
 			for(int j = i; j < arr.length; j++) {
 				int end = j;
 				sum = 0;
-//				System.out.print("(");
+				System.out.print("(");
 				for(int k = start; k <= end; k++) {
-//					System.out.print(" " + arr[k] + " ");
+					System.out.print(" " + arr[k] + " ");
 					sum = sum + arr[k];
 				}
-//				System.out.println(")");
+				System.out.println(")");
 			}
 			if(max < sum) {
 				max= sum;
