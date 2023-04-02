@@ -5,7 +5,7 @@ public class KadanesSubArray {
 		int max = Integer.MIN_VALUE;
 		int currentSum = 0;
 		for(int i = 0; i < arr.length; i++) {
-			currentSum +7 arr[i];
+			currentSum += arr[i];
 			if (currentSum < 0) {
 				currentSum = 0;
 			}
